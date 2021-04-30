@@ -1,3 +1,7 @@
+# Margaret Leitz
+
+For this question I chose to use the Observer Pattern.  I had the Buyer class extend the Observer interface class and the Seller class extend the Subject interface.  The Seller class stored the list of Buyers and called the update function on all Buyers, minus the one that was placing the bid.  This update function was used to "notify" the other Buyers and their Bid notifications were stored in their class objects.
+
 # Project Template
 
 This is a Java Maven Project Template
